@@ -31,7 +31,7 @@ button > .spinner-container > .spinner {
 		transform: rotate(1turn);
 	}
 }
-[data-main] {
+/* [data-main] {
 	transform: translateY(0vh) scale(0.8);
 	opacity: 0;
 	animation: fade-in-translate 1.4s cubic-bezier(0.77, 0, 0.18, 1) forwards, scale-up 1s cubic-bezier(0.77, 0, 0.18, 1) forwards 1.4s;
@@ -55,4 +55,4 @@ button > .spinner-container > .spinner {
 	100% {
 		transform: scale(1);
 	}
-}
+} */
