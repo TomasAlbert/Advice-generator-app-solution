@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+		<link rel="stylesheet" href="./dist/output.css" />
+		<title>Frontend Mentor | Advice generator app</title>
+	</head>
+	<body class="min-h-screen flex items-center justify-center bg-DarkBlue">
+		<main data-main class="px-4 sm:px-6">
+			<div class="rounded-lg relative text-center max-w-xs bg-DrakGrayishBlue py-6 px-6 sm:py-8 sm:px-8">
+				<span data-quote-id class="uppercase block mb-3 tracking-[0.3em] text-[14px] text-NeonGreen"
+					>advice
+					<span data-quote-id></span>
+				</span>
+				<p data-quote-advice></p>
+				<picture>
+					<source media="(min-width: 480px)" srcset="./images/pattern-divider-desktop.svg" />
+					<source srcset="./images/pattern-divider-mobile.svg" />
+					<img class="mt-5 w-full mb-3 sm:mb-1" src="./images/pattern-divider-desktop.svg" alt="divider" />
+				</picture>
+				<button data-dice class="p-2.5 bg-NeonGreen rounded-full absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 hover:shadow-neon transition-all duration-300 cursor-pointer">
+					<img src="./images/icon-dice.svg" alt="dice" />
+				</button>
+			</div>
+		</main>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Advice generator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Advice #<!-- Advice ID goes here -->
-
-  "<!-- Advice text goes here -->"
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+		<script src="./main.js"></script>
+	</body>
 </html>

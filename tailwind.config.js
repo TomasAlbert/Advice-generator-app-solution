@@ -4,9 +4,8 @@ module.exports = {
 	content: ["./*.{html,js}"],
 	theme: {
 		extend: {
-			backgroundImage: {
-				HeroPatternDesktop: "url('../images/bg-desktop.svg')",
-				HeroPatternMobile: "url('../images/bg-mobile.svg')",
+			boxShadow: {
+				neon: "0px 0px 40px 0px hsl(150, 100%, 66%)",
 			},
 		},
 		screens: {
@@ -16,12 +15,16 @@ module.exports = {
 			xl: "1400px",
 		},
 		colors: {
-			Violet: "hsl(257, 40%, 49%)",
-			SoftMagenta: "hsl(300, 69%, 71%)",
+			// PRIMARY
+			LightCyan: "hsl(193, 38%, 86%)",
+			NeonGreen: "hsl(150, 100%, 66%)",
+			// NEUTRAL
+			GrayishBlue: "hsl(217, 19%, 38%)",
+			DrakGrayishBlue: "hsl(217, 19%, 24%)",
+			DarkBlue: "hsl(218, 23%, 16%)",
 		},
 		fontFamily: {
-			Poppins: ["Poppins", "sans-serif"],
-			OpenSans: ["Open Sans", "serif"],
+			Manrope: ["Manrope", "sans-serif"],
 		},
 	},
 	plugins: [],
