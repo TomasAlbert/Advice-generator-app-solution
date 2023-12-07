@@ -735,31 +735,33 @@ button > .spinner-container > .spinner {
   }
 }
 
-/* [data-main] {
-	transform: translateY(0vh) scale(0.8);
-	opacity: 0;
-	animation: fade-in-translate 1.4s cubic-bezier(0.77, 0, 0.18, 1) forwards, scale-up 1s cubic-bezier(0.77, 0, 0.18, 1) forwards 1.4s;
+[data-main] {
+  transform: translateY(0vh) scale(0.8);
+  opacity: 0;
+  animation: fade-in-translate 1.4s cubic-bezier(0.77, 0, 0.18, 1) forwards, scale-up 1s cubic-bezier(0.77, 0, 0.18, 1) forwards 1.4s;
 }
 
 @keyframes fade-in-translate {
-	0% {
-		transform: translateY(50vh) scale(0.8);
-		opacity: 0;
-	}
-	100% {
-		transform: translateY(0vh) scale(0.8);
-		opacity: 1;
-	}
+  0% {
+    transform: translateY(50vh) scale(0.8);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0vh) scale(0.8);
+    opacity: 1;
+  }
 }
 
 @keyframes scale-up {
-	0% {
-		transform: scale(0.8);
-	}
-	100% {
-		transform: scale(1);
-	}
-} */
+  0% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
 
 .hover\:shadow-neon:hover{
   --tw-shadow: 0px 0px 40px 0px hsl(150, 100%, 66%);
